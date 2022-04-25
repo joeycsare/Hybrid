@@ -15,13 +15,13 @@ public class MouseInteractionManager : MonoBehaviour
 
     public bool allow = false;
     public bool turn = false;
-    private bool isHit = false;
+    public bool isHit = false;
     public bool hold = false;
 
     private Camera usedCam;
 
     public GameObject currentHit;
-    private GameObject lastHit;
+    public GameObject lastHit;
 
     private RaycastHit hit;
     private Ray ray;

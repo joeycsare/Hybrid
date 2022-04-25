@@ -45,7 +45,6 @@ public class PlayerControlManager : MonoBehaviour
 
     [Header("The hight of the First Person Player")]
     public float playerhight = 3.5f;
-    public int bla = 3;
 
     [Header("Where you spawn when changing players")]
     public bool synchronize = false;
@@ -311,13 +310,13 @@ public class PlayerControlManager : MonoBehaviour
 
     public void DrawLineMode(string Line)
     {
-        top = height;
+        top = 2 * height;
 
         string text = Line;
         float width = (Edgewidth + text.Length * Mainwidth);
         float left = Screen.width * 0.5f - width;
 
-        if (GUI.Button(new Rect(left, top, 2 * width, 1.5f * height), text))
+        if (GUI.Button(new Rect(left, top, 2 * width, 2 * height), text))
         {
             Debug.Log("Did Something");
         }

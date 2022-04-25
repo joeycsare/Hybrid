@@ -12,14 +12,14 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: HKA
-  productName: Project
+  companyName: Syntegon
+  productName: FE Projekt
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.15686275, g: 0.19607845, b: 0.23529413, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
-  m_SplashScreenOverlayOpacity: 0.5
+  m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 2
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 513a201cee564a1489c117e05c206c6d, type: 3}
+  - logo: {fileID: 21300000, guid: 92f6ed2591142d34c91ea22e0652b22e, type: 3}
     duration: 4
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -136,14 +136,10 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 0.9
   preloadedAssets:
   - {fileID: 11400000, guid: 80f67d85b523d214c9dc9e3e4bf85bd2, type: 2}
   - {fileID: 0}
-  - {fileID: 7425262456834854956, guid: fba3cb0548d3c904ba926e9bc1bbe344, type: 2}
-  - {fileID: 11400000, guid: 5dcf41ff7c258f940a35983fd563e5d6, type: 2}
-  - {fileID: 11400000, guid: ff3726009d269c940a49414949796703, type: 2}
-  - {fileID: -1795854026149800226, guid: 2ac63b0c4389bc645b4ef838d585e161, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -161,7 +157,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.HKA.Project
+    Standalone: com.Syntegon.FEProjekt
     iPhone: com.Syntegon.FEProjekt
   buildNumber:
     Standalone: 0
@@ -279,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: b972fddeee494d643b0baeac93aef2dc, type: 3}
+      m_Icon: {fileID: 2800000, guid: 92f6ed2591142d34c91ea22e0652b22e, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -861,7 +857,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Standalone: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
