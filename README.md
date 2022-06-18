@@ -1,3 +1,3 @@
-# Unity Hybrid Player Template
+# Unity universal Template
 
-An Hybrid Player Template for Students with no or only minimal knowledge of unity and coding. The functions are based on 4 scripts + XR Toolkit VR Implementation. Photon PUN Multiplayer can be added
+An universal template for Students with no or only minimal knowledge of unity and coding. The scripts should to be documented well enough for everybody to understand or to google what is not known.

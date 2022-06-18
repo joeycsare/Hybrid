@@ -1,0 +1,1114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BuiltInShaderVariants
+  m_Shaders:
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SINGLE_CASCADE SHADOWS_SPLIT_SPHERES
+        passType: 0
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 4800000, guid: 0e8cb18aaa9b9d34883fd3e69075b566, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_CORNER
+        passType: 0
+      - keywords: CLIP_PLANE
+        passType: 0
+  - first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON _EMISSION
+        passType: 4
+      - keywords: FOG_EXP2 POINT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _EMISSION
+        passType: 4
+      - keywords: DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _EMISSION _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON _GLOSSYREFLECTIONS_OFF
+          _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHABLEND_ON _EMISSION
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _GLOSSYREFLECTIONS_OFF _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH _ALPHABLEND_ON _EMISSION
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          _SPECULARHIGHLIGHTS_OFF
+        passType: 5
+      - keywords: FOG_EXP2 POINT _ALPHABLEND_ON
+        passType: 5
+      - keywords: POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: POINT SHADOWS_CUBE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A _SPECULARHIGHLIGHTS_OFF
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_CUBE _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: _ALPHABLEND_ON
+        passType: 8
+      - keywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+  - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+      - keywords: 
+        passType: 2
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: FOG_EXP2 _ALPHAPREMULTIPLY_ON _COLOROVERLAY_ON _FADING_ON
+        passType: 4
+      - keywords: PROCEDURAL_INSTANCING_ON _ALPHAPREMULTIPLY_ON _COLOROVERLAY_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 40, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 0d8f815f7f79a7449880d2a13a0c5248, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: ALL_EDGES
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a2fa37d613dd0f44495fe23fbf8c74ed, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: CLIP_PLANE FOG_EXP2 POINT
+        passType: 5
+      - keywords: FOG_EXP2 POINT
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_PLANE SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 7e045c59e0371d24fb8abc6b186a7697, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 1b66cbabe89df6d4d9bd4d619cf1ca89, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: FOG_EXP2 POINT
+        passType: 5
+  - first: {fileID: 4800000, guid: 2c9c4aacba77b8f429a821b785e755ba, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_BOX RETRACT_BACKFACES
+        passType: 0
+      - keywords: CLIP_CORNER RETRACT_BACKFACES
+        passType: 0
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES VERTEXLIGHT_ON
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH RETRACT_BACKFACES
+          _EMISSION
+        passType: 4
+      - keywords: CLIP_CORNER DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON LIGHTMAP_ON
+          RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: CLIP_BOX FOG_EXP2 POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: CLIP_CORNER DIRECTIONAL
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_BOX SHADOWS_CUBE
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 3609afdff6f33824a958dce1ab0715cd, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON
+          LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON
+          LIGHTMAP_ON RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+          RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH RETRACT_BACKFACES
+          _EMISSION
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON
+          LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON
+          LIGHTMAP_ON RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHATEST_ON
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHATEST_ON
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH RETRACT_BACKFACES
+          _EMISSION
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL
+        passType: 5
+      - keywords: CLIP_PLANE DIRECTIONAL
+        passType: 5
+      - keywords: CLIP_PLANE FOG_EXP2 POINT SHADOWS_CUBE _ALPHATEST_ON
+        passType: 5
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _ALPHATEST_ON
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_CORNER SHADOWS_DEPTH
+        passType: 8
+      - keywords: CLIP_PLANE INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: CLIP_PLANE SHADOWS_CUBE _ALPHATEST_ON
+        passType: 8
+      - keywords: SHADOWS_CUBE _ALPHATEST_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: c5caad76afc5481419638941ef1187bc, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 9a3d394e44ae50e4eb1ef366aba83e06, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: FOG_EXP2 POINT
+        passType: 5
+  - first: {fileID: 4800000, guid: bfc724f4c6a497445a94d6f89e32af99, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_BOX
+        passType: 0
+      - keywords: CLIP_BOX RETRACT_BACKFACES
+        passType: 0
+      - keywords: CLIP_CORNER RETRACT_BACKFACES
+        passType: 0
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES VERTEXLIGHT_ON
+          _EMISSION
+        passType: 4
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHATEST_ON
+          _EMISSION
+        passType: 4
+      - keywords: CLIP_BOX DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHATEST_ON _EMISSION
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+          RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: CLIP_BOX FOG_EXP2 POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: CLIP_BOX FOG_EXP2 POINT SHADOWS_CUBE _ALPHATEST_ON
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_BOX SHADOWS_CUBE
+        passType: 8
+      - keywords: CLIP_BOX SHADOWS_CUBE _ALPHATEST_ON
+        passType: 8
+      - keywords: CLIP_CORNER SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: cbc7146e05a1b5940ab8aebe986666b5, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 0767f766ffe82f94db25cf5fe9e8df3b, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: CLIP_PLANE DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: CLIP_TUBES DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: CLIP_TUBES DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: CLIP_TUBES DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: CLIP_PLANE FOG_EXP2 POINT
+        passType: 5
+      - keywords: CLIP_TUBES POINT
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_PLANE SHADOWS_CUBE
+        passType: 8
+      - keywords: CLIP_PLANE SHADOWS_DEPTH
+        passType: 8
+      - keywords: CLIP_TUBES SHADOWS_CUBE
+        passType: 8
+      - keywords: CLIP_TUBES SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: e9359d4f49595524b80dff48c62b253a, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: f529e5f1fae14e74a90cc0882747afdc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 26ee8e59793fef240a1657603da86c59, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH RETRACT_BACKFACES VERTEXLIGHT_ON
+        passType: 4
+      - keywords: FOG_EXP2 POINT RETRACT_BACKFACES
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: RETRACT_BACKFACES SHADOWS_CUBE
+        passType: 8
+      - keywords: RETRACT_BACKFACES SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: ff4b92006d38f1c43b2e5ce5ec3fc881, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 614edf089c7d25444b1f16d322a05d82, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: c1cf99e9f394d364d8ff586032035d17, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 0d2a66a28dcff00409d76ab6b4d7a3ec, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_PLANE
+        passType: 0
+  - first: {fileID: 4800000, guid: 83a8c97990217954f89d9f49a766b9f4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 9f01f5c8f2f9f9741ad9f68b4ecad94a, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+          RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL RETRACT_BACKFACES
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: RETRACT_BACKFACES
+        passType: 8
+      - keywords: RETRACT_BACKFACES SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: f63b4377019c8b24f8eb9213d683607d, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_CORNER DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+          RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL LIGHTPROBE_SH RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON RETRACT_BACKFACES
+        passType: 4
+      - keywords: CLIP_CORNER DIRECTIONAL
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 7a1fa822b7e13d44f85cbd1fe29e9c19, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 70a40a5bad0ad4046834119b6f1d9527, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 280d99bf21f99f240b88d76529df5f37, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_CORNER
+        passType: 0
+      - keywords: CLIP_PLANE
+        passType: 0
+  - first: {fileID: 4800000, guid: b1f54d0366938af4a94382390d71a7bd, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2
+        passType: 0
+  - first: {fileID: 4800000, guid: 02ac2865a8f1d8a42ae8eccb5d4f7668, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 03f3982db16f17e4b92dd2cfd31b17ee, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 5bab456c01b072f429d51c041b682a00, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 5d46feb1c8681a146b0c850810e52792, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_PLANE DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 6543cd53fe423404387303816c22f669, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 705d797c08d5db74983b8067202c7115, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e36c7f15551493149a0ed29049dcc854, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: e6b8ead22220db44091ef721f1a30da5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_BOX
+        passType: 0
+      - keywords: CLIP_BOX FOG_EXP2
+        passType: 0
+  - first: {fileID: 4800000, guid: f1d14b7a9349d604eaa83930926b7323, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 668365f538e4c044cbf47ce38eff69b6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_PLANE
+        passType: 0
+  - first: {fileID: 4800000, guid: ae48b0bbe0ea8ab4eae391cdbfa07b26, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: CLIP_CORNER FOG_EXP2
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: CLIP_CORNER SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 2682440b622e2fe46a01105607e1e883, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 60c52e406ede478428ed188ed336ba95, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: f3cd62d184e411c419cef2233648cc43, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 382151503e2a43a4ebb7366d1632731d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BLOOM
+        passType: 0
+      - keywords: BLOOM CHROMATIC_ABERRATION
+        passType: 0
+      - keywords: BLOOM DISTORT
+        passType: 0
+  - first: {fileID: 4800000, guid: 4bf4cff0d0bac3d43894e2e8839feb40, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c1e1d3119c6fd4646aea0b4b74cacc1a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 437d0979b3c37574a90f2dfcf35945cd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: f75014305794b3948a3c6d5ccd550e05, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 81af42a93ade3dd46a9b583d4eec76d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d7640629310e79646af0f46eb55ae466, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: APPLY_FORWARD_FOG FOG_EXP2
+        passType: 0
+  - first: {fileID: 4800000, guid: 384f0e28010d8fe42b1e1147a18a328e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: edc5d29a620b8c149824aa9185c2f5e4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a2578f9f86dfe24498bf2ca5864d9dd0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 126c01aa9f5f14448aa35606b2991cbe, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 9050f9fbfb6ecaa499b05b6190357153, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4c0df102679fd5e4489012a1cf8de3db, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fefa0f1d6d6bf594b96a14d19685399d, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 3473899631ddef84d8c65b997a0d7cd9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 1790d22a53e827c4992cd78337c0e775, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: b05a3e8b043e1844c95d7ce4c6b4b34e, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: c88c870ecd3a2ca4c8569cf19e818dfc, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: e95b44c54b9192e449ceecfd011149fd, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: 
+        passType: 6
+      - keywords: 
+        passType: 7
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 3226f7eb6a30c0b468ed37eb0b2d8c08, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 02deef4f6d28aa0478c4ea4c83e6fe74, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 9720cf7f6a3701c4cacfad9ffab4c0cb, type: 3}
+    second:
+      variants:
+      - keywords: CLIP_CORNER CLIP_PLANE DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: CLIP_CORNER CLIP_PLANE DIRLIGHTMAP_COMBINED FOG_EXP2 INSTANCING_ON
+          LIGHTMAP_ON RETRACT_BACKFACES _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: CLIP_CORNER CLIP_PLANE DIRECTIONAL
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: CLIP_CORNER SHADOWS_DEPTH
+        passType: 8
+      - keywords: CLIP_PLANE INSTANCING_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: 
+        passType: 11

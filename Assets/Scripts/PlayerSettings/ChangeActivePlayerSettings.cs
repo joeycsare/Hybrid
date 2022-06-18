@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ChangeActivePlayerSettings : MonoBehaviour
 {
-    public GameObject playerControlManager;
+    public PlayerControlManager playerControlManager;
 
     [Header("Enable Overriding")]
     [Tooltip("Simple switching players without overriding Start Options possible. Only one bool can be activated in this case.")]
@@ -17,6 +17,8 @@ public class ChangeActivePlayerSettings : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerControlManager = FindObjectOfType<PlayerControlManager>();
+
         if ((Convert.ToInt32(DebugXR) + Convert.ToInt32(DebugFPC) + Convert.ToInt32(DebugCam) > 1) && !Override)
         {
             Override = false;
@@ -26,6 +28,6 @@ public class ChangeActivePlayerSettings : MonoBehaviour
 
     public void Switch()
     {
-        playerControlManager.GetComponent<PlayerControlManager>().DebugPlayerSetting(DebugFPC, DebugXR, DebugCam, Override);
+        playerControlManager.DebugPlayerSetting(DebugFPC, DebugXR, DebugCam, Override);
     }
 }

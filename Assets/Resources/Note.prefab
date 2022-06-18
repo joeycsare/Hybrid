@@ -549,7 +549,6 @@ GameObject:
   - component: {fileID: 5546098614779480947}
   - component: {fileID: 5546098614779480944}
   - component: {fileID: 5546098614779480945}
-  - component: {fileID: 5546098614779480950}
   m_Layer: 9
   m_Name: Del
   m_TagString: Untagged
@@ -600,7 +599,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8947b640e6df7ed4391292c3aea60ead, type: 2}
+  - {fileID: 2100000, guid: c282d31bf082fca4a822239b62ff8257, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -635,33 +634,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5546098614779480950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5546098614779480948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f13187b39232354982308608a6dc687, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DoSmt:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TriLibCore.Samples.LoadFbx, Assembly-CSharp
-        m_MethodName: RotateModel
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 90
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &5546098614964089993
 GameObject:
   m_ObjectHideFlags: 0
