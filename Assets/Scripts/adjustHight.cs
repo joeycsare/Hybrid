@@ -9,6 +9,7 @@ public class adjustHight : MonoBehaviour
     public CharacterController character;
 
     private Vector3 scale;
+    public float baseSize = 0.7f;
     public float multiply;
 
     // Start is called before the first frame update
@@ -20,7 +21,7 @@ public class adjustHight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newScale = new Vector3(1, 0.7f + (slide.value * multiply), 1);
+        Vector3 newScale = new Vector3(1, baseSize + (slide.value * multiply), 1);
 
         character.transform.localScale = Vector3.Scale(scale, newScale);
     }
